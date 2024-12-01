@@ -1,0 +1,41 @@
+body{
+    border: solid black;
+    margin: 0px;
+}
+* {
+    font-family: "Ubuntu", sans-serif;}
+
+h1,h2,h3 {
+    font-family: "Black Ops One", system-ui;
+    color: rgb(50, 49, 49);
+}
+/*Modifiche header*/
+
+header {
+    background-color: rgb(50, 49, 49);
+    height: 35vh;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+header h1 {
+    margin: 0px;
+    color: #f6ff00;
+}
+header div {
+    color: white;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+/*Navbar*/
+
+.nav{
+    background-color: #f6ff00;
+    margin-bottom: 0px;
+    
+}
+
+
+

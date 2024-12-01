@@ -1,0 +1,59 @@
+.Icon {
+    height: 50px;
+    width: 50px;
+}
+.iconFixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media screen and (max-width: 700px){
+    /*nav*/
+    nav {
+        flex-direction: column;
+        height: 100%;
+        width: 99%;
+    }
+    ul {
+        flex-direction: column;
+        width: 90%;
+        margin: 0px;
+    }
+    li {
+        padding: 2px;
+        margin: 0px;
+        width: 90%;
+    }
+    /*header*/
+    header {
+        display: inline-block;
+        height: 100%;
+        width: 99%;
+    }
+    /*main*/
+    main {
+        display: block;
+        height: 100%;
+    }
+    .Container{
+        display: block;
+        height: 100%;
+    }
+    article {
+        display: block;
+        width: 99%;
+        height: 100%;
+    }
+    aside {
+        display: block;
+        width: 99%;
+
+    }
+    .iconFixed{
+        position: static;
+    }
+    section {
+        width: 99%;
+    }
+}
